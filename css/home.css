@@ -1,0 +1,76 @@
+:root {
+  --main-color: rgba(22, 15, 27, 0.8);
+  --white-text: whitesmoke;
+  --black-text: black;
+  --red: #d80013;
+  --gray: #eceff6;
+  --gold: #ffd700;
+  --spacing: var(--spacing);
+}
+
+.home-main {
+  height: 100%;
+  background-image: url(/assets/images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  opacity: 0.7;
+}
+
+main section {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  height: 50%;
+}
+
+main .blog-description {
+  width: 100%;
+  grid-row: 1;
+  grid-column: 2;
+  margin: 0 auto;
+  letter-spacing: var(--spacing);
+  color: var(--black-text);
+  text-align: center;
+  align-self: center;
+  margin-top: 90px;
+  background-color: rgba(256, 256, 256, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+main .blog-description h2,
+h3 {
+  font-style: italic;
+  font-size: 25px;
+}
+
+main .blog-description p {
+  line-height: 40px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+main section a {
+  grid-row: 2;
+  grid-column: 2;
+  margin: 0 auto;
+  margin-top: 100px;
+  align-self: center;
+}
+
+.button-link {
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: var(--spacing);
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  background-color: var(--gray);
+  color: var(--red);
+  box-shadow: 2px 2px 0px 0px red;
+}
