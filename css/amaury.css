@@ -1,0 +1,9 @@
+:root {
+  --main-color: rgba(22, 15, 27, 0.8);
+  --white-text: whitesmoke;
+  --black-text: black;
+  --gray: #eceff6;
+  --gold: #ffd700;
+  --spacing: 2px;
+  --article-background: rgba(255, 255, 255, 0.5);
+}
