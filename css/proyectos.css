@@ -41,7 +41,3 @@ main section .project-card h3 {
 main section .project-card img {
   max-width: 100%;
 }
-
-footer {
-  position: relative;
-}
