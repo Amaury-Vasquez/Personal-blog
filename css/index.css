@@ -7,11 +7,15 @@
   --spacing: 2px;
   --article-background: rgba(255, 255, 255, 0.5);
   --height: 40px;
+  --font-size: 18px;
 }
 
-main {
+main section {
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
 }
 
 main article {
@@ -19,7 +23,7 @@ main article {
   grid-column: 2;
   letter-spacing: var(--spacing);
   padding: 20px;
-  margin-top: 50px;
+  margin-top: 30px;
   text-align: center;
   line-height: var(--height);
   opacity: 0.8;
@@ -31,6 +35,10 @@ main article h3 {
 }
 
 main article p {
-  font-size: 20px;
+  font-size: var(--font-size);
   text-align: justify;
+}
+
+footer {
+  position: absolute;
 }

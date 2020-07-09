@@ -1,0 +1,47 @@
+:root {
+  --main-color: rgba(22, 15, 27, 0.8);
+  --white-text: whitesmoke;
+  --black-text: black;
+  --red: #d80013;
+  --gray: #eceff6;
+  --gold: #ffd700;
+  --spacing: 2px;
+  --article-background: rgba(255, 255, 255, 0.5);
+  --height: 40px;
+  --font-size: 18px;
+}
+
+main section .menu-title {
+  grid-column: 2;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: var(--spacing);
+  font-style: italic;
+}
+
+main section .project-menu {
+  grid-column: 2;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+main section .project-card {
+  max-width: 100%;
+  background-color: var(--article-background);
+  border-radius: 5px;
+  padding: 10px;
+  line-height: var(--height);
+  letter-spacing: var(--spacing);
+}
+
+main section .project-card h3 {
+  text-transform: capitalize;
+}
+main section .project-card img {
+  max-width: 100%;
+}
+
+footer {
+  position: relative;
+}

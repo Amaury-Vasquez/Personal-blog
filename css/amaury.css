@@ -7,14 +7,8 @@
   --spacing: 2px;
   --article-background: rgba(255, 255, 255, 0.5);
   --link-color: red;
-}
-
-main section {
-  display: grid;
-  grid-template-columns: 1fr 6fr 1fr;
-  width: 100%;
-  height: auto;
-  margin-top: 20px;
+  --height: 40px;
+  --font-size: 18px;
 }
 
 main section article {
@@ -63,7 +57,7 @@ main section article .image-container.projects {
 }
 main section article .text {
   letter-spacing: var(--spacing);
-  line-height: 40px;
+  line-height: var(--height);
   padding: 30px;
 }
 
@@ -75,13 +69,9 @@ main section article h2 {
 
 main section article p {
   text-align: justify;
-  font-size: 18px;
+  font-size: var(--font-size);
 }
 
-main section article a {
-  font-style: italic;
-  color: var(--link-color);
-}
 main section article .article-subtitle {
   text-align: center;
   font-style: italic;

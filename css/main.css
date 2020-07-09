@@ -6,6 +6,7 @@
   --gray: #eceff6;
   --gold: #ffd700;
   --spacing: 2px;
+  --article-background: rgba(255, 255, 255, 0.5);
 }
 
 html,
@@ -115,6 +116,14 @@ header .header-bottom a {
 
 header .header-bottom a:hover {
   opacity: 0.3;
+}
+
+main section {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
 }
 
 footer {
