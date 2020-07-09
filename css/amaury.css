@@ -6,4 +6,84 @@
   --gold: #ffd700;
   --spacing: 2px;
   --article-background: rgba(255, 255, 255, 0.5);
+  --link-color: red;
+}
+
+main section {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+main section article {
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: auto;
+  height: auto;
+  /* align-items: center; */
+  padding: 20px;
+  background-color: var(--article-background);
+}
+
+main section article .image-container {
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 40px;
+  height: auto;
+  justify-self: center;
+  align-self: center;
+}
+
+main section article .image-container {
+  padding: 10px;
+  height: 200px;
+  width: 70%;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 10px 10px rgba(22, 15, 27, 0.1);
+}
+
+main section article .image-container.amaury {
+  background-image: url("../assets/images/amaury.jpg");
+}
+
+main section article .image-container.formation {
+  background-image: url("../assets/images/page-example.gif");
+}
+
+main section article .image-container.projects {
+  background-image: url("../assets/images/github.png");
+}
+main section article .text {
+  letter-spacing: var(--spacing);
+  line-height: 40px;
+  padding: 30px;
+}
+
+main section article h2 {
+  text-transform: capitalize;
+  text-align: left;
+  font-style: italic;
+}
+
+main section article p {
+  text-align: justify;
+  font-size: 18px;
+}
+
+main section article a {
+  font-style: italic;
+  color: var(--link-color);
+}
+main section article .article-subtitle {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
 }

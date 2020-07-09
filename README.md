@@ -1,8 +1,5 @@
-# Personal-blog
+<h1> <a style="text-decoration: none; , color:black;" href="https://amaury-vasquez.github.io/kantodex.github.io/"> </a> </h1> </br>
 
-My Personal Blog
-
-Blog made to show the World who is Amaury Vasquez
-Simple page with basic tutorials of different languages,
-projects i made and a personal toughts section.
-It is all made in spanish.
+<h2> Blog personal </h2></br>
+<p> Proyecto en fase de desarrollo </br>
+Se actualizara constantemente segun se vaya avanzando en el proyecto</p>

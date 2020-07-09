@@ -6,6 +6,7 @@
   --gold: #ffd700;
   --spacing: 2px;
   --article-background: rgba(255, 255, 255, 0.5);
+  --height: 40px;
 }
 
 main {
@@ -20,7 +21,8 @@ main article {
   padding: 20px;
   margin-top: 50px;
   text-align: center;
-  line-height: 40px;
+  line-height: var(--height);
+  opacity: 0.8;
 }
 
 main article h3 {
